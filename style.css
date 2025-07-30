@@ -1,0 +1,93 @@
+/* RESET DASAR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FONT */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* BACKGROUND */
+body {
+  background-color: #EAEAEA;
+  background-image: url('assets/autumn.svg');
+  background-repeat: repeat;
+  background-size: 150px;
+  background-position: top center;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  background-color: #D8C3A5; /* cokelat muda pastel */
+  color: #333;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* NAV */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #8D775F; /* aksen hover cokelat lebih gelap */
+}
+
+/* CARD */
+.card {
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* FOTO PROFIL */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: block;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* BIO & CERITA */
+.bio, .cerita {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.bio h2, .cerita h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.bio p, .cerita p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
